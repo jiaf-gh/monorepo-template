@@ -1,0 +1,25 @@
+{
+  "name": "@mrp-tpl/root",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10.6.2",
+  "description": "Monorepo template using PNPM Workspace and NX as CI runner.",
+  "author": "José Israel <https://github.com/jiaf-gh>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0",
+    "pnpm": ">=10.6.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
+    "nx": "^20.8.0"
+  }
+}
